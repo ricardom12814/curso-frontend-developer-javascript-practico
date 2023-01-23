@@ -16,6 +16,8 @@ body {
   display: none;
 }
 
+
+/*Navbar general*/
 nav {
   display: flex;
   justify-content: space-between;
@@ -80,6 +82,8 @@ nav {
   align-items: center;
 }
 
+/*Desktop menu*/
+
 .desktop-menu {
   position: absolute;
   top: 60px;
@@ -118,7 +122,10 @@ nav {
   display: inline-block;
 }
 
+/*mobil menu*/
 .mobile-menu {
+  
+  background-color: var(--white);
   position: absolute;
   top: 60px;
   padding: 24px;
@@ -152,8 +159,9 @@ nav {
 /*Aside (product detail y carrito)*/
 
 .product-detail {
+  background-color: var(--white);
   width: 360px;
-  padding: 24px;
+  padding: 0 24px;
   box-sizing: border-box;
   position: absolute;
   right: 0;
